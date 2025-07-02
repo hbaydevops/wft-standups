@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editable Standup Table</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    td {
+      background-color: #fff;
+    }
+    td:focus {
+      outline: 2px solid #007BFF;
+      background-color: #e6f7ff;
+    }
+  </style>
+</head>
+<body>
+  <table contenteditable="false">
+    <thead>
+      <tr>
+        <th>Standup Week</th>
+        <th>Names</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 10 editable rows -->
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+      <tr><td contenteditable="true"></td><td contenteditable="true"></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
